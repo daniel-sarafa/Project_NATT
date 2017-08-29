@@ -27,16 +27,27 @@ body {
 	color: white;
 }
 
+.topbar {
+	width: 100%; 
+	margin-bottom: 0; 
+	padding-bottom: 7%;
+	background-color: cornflowerblue;
+}
+
+.image {
+
+}
+
 .text-body {
 	text-size-adjust: auto;
 	text-align: center;
+	margin-top: 15%;
 }
 
 
 .description {
 	text-align: center;
-	background-color: gray;
-	margin-top: 40%;
+	/* margin-top: 40%; */
 	margin-left: 25%;
 	margin-right: 25%;
 	text-size-adjust: auto;
@@ -44,6 +55,7 @@ body {
 
 .buttons {
 	text-align: center;
+	margin-top: 10%;
 }
 
 .loginbut {
@@ -51,6 +63,7 @@ body {
 	padding-left: 52.5px;
 	padding-right: 52.5px;
 	font-size: 32px;
+	border-radius: 15px;
 }
 
 .signupbut {
@@ -58,4 +71,5 @@ body {
 	padding-left: 40px;
 	padding-right: 40px;
 	font-size: 32px;
+	border-radius: 15px;
 }
