@@ -6,7 +6,6 @@
     <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'/>
     <link href='css/LoginPage.css' rel='stylesheet' type='text/css'/>
     
-    
 </head>
 <body>
 	<div class="container topbar" style=""></div>
@@ -20,8 +19,10 @@
 		</div>
 		</div>
 		<div class="buttons">
+		<form action="#" th:action="@{/deviceDetection}" method="post">
 			<div class="loginbut btn">Log In</div>
-			<div class="signupbut btn">Sign Up</div>
+			<input type="submit" value="Sign Up" class="signupbut btn"/>
+			</form>
 		</div>
 		
 </body>
