@@ -57,19 +57,3 @@ body {
 	text-align: center;
 	margin-top: 10%;
 }
-
-.loginbut {
-	background-color: green;
-	padding-left: 52.5px;
-	padding-right: 52.5px;
-	font-size: 32px;
-	border-radius: 15px;
-}
-
-.signupbut {
-	background-color: cornflowerblue;
-	padding-left: 40px;
-	padding-right: 40px;
-	font-size: 32px;
-	border-radius: 15px;
-}

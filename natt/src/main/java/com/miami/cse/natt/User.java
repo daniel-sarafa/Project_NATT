@@ -3,12 +3,10 @@ package com.miami.cse.natt;
 import org.springframework.data.annotation.Id;
 import org.springframework.stereotype.Component;
 
-import lombok.Data;
-
 @Component
 public class User {
 
-    @Id
+	@Id
     private String userName;
     
     private String email;
@@ -18,7 +16,15 @@ public class User {
     
     private Points pointsForUser = new Points();
 
-	public String getUserName() {
+	public Points getPointsForUser() {
+		return pointsForUser;
+	}
+
+	public void setPointsForUser(Points pointsForUser) {
+		this.pointsForUser = pointsForUser;
+	}
+	
+    public String getUserName() {
 		return userName;
 	}
 
@@ -57,14 +63,4 @@ public class User {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-
-	public Points getPointsForUser() {
-		return pointsForUser;
-	}
-
-	public void setPointsForUser(Points pointsForUser) {
-		this.pointsForUser = pointsForUser;
-	}
-    
-    
 }

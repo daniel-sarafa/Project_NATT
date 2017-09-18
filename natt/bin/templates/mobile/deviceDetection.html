@@ -4,7 +4,7 @@
     <title>Project NATT: Log in</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'/>
-    <link href='css/LoginPage.css' rel='stylesheet' type='text/css'/>
+    <link href='css/device.css' rel='stylesheet' type='text/css'/>
     
 </head>
 <body>
@@ -19,9 +19,27 @@
 		</div>
 		</div>
 		<div class="buttons">
-		<form action="#" th:action="@{/deviceDetection}" method="post">
-			<div class="loginbut btn">Log In</div>
-			<input type="submit" value="Sign Up" class="signupbut btn"/>
+	 <form action="#" th:action="@{/deviceDetection}" method="post"> 
+	 	<input style="
+	background-color: cornflowerblue;
+	padding-left: 44.5%;
+	padding-right: 44.5%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	font-size: 32px;
+	border-radius: 0px;"
+	type="submit" value="Sign Up" class="signupbut btn"/>
+			</form>
+				 <form action="#" th:action="@{/deviceDetection/login}" method="post"> 
+			<input style="	
+	background-color: green;
+	padding-left: 46%;
+	padding-right: 46%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	font-size: 32px;
+	border-radius: 0px;" 
+	type="submit" value="Log In" class="loginbut btn"/>
 			</form>
 		</div>
 		
