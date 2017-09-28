@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+.topbar {
+	width: 100%; 
+	margin-bottom: 0; 
+	background-color: cornflowerblue;
+}
+
+.hello {
+	    font-size: 36px;
+  		color: yellow;
+  		margin-top: 1%;
+    	margin-left: 1%;
+}
+
+.points {
+	    font-size: 36px;
+  		color: yellow;
+  		margin-top: 1%;
+    	margin-left: 1%;
+}

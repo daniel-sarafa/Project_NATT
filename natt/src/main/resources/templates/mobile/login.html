@@ -15,12 +15,26 @@
 			<h1>Sign up for Project NATT</h1>
 			<div class="theform" style="margin-top: 15%;">
 			<form action="#" th:action="@{/deviceDetection/login}" th:object="${login}" method="post" style="font-size: 36px;">
-				<div class="formslineup" style="text-align: right; margin-right: 15%;">
+				<div class="formslineup" style="text-align: right; margin-right: 15%; margin-left: 15%;">
 					<p>Username: <input style="color: black;" type="text" th:field="*{userName}" /></p>
 					<p>Password: <input style="color: black;" type="text" th:field="*{password}" /></p>
-					<p style="margin-top: 5%;"><input type="submit" value="Submit" class="btn submitbut"/>
-					<input type="reset" value="Reset" class="btn resetbut"/></p>
+					<p style="margin-top: 60%;"></p>
 					</div>
+					<input type="submit" value="Log In" class="btn submitbut" 
+					style= "width: 100%;
+					background-color: cornflowerblue;
+					padding-bottom: 2%;
+					padding-top: 2%;
+					font-size: 32px;
+					border-radius: 0px;" />
+					<input type="reset" value="Reset" class="btn resetbut" style=" 
+					background-color: green;
+					width: 100%;
+					padding-bottom: 2%;
+					padding-top: 2%;
+					font-size: 32px;
+					border-radius: 0px;"/>
+					
 			</form>
 			</div>
 		</div>

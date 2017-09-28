@@ -8,12 +8,21 @@ import lombok.Data;
 @Component
 public class Points {
 
-    private Integer driveModePoints = 0;
-    private Integer fitnessModePoints = 0;
-    private Integer studyModePoints = 0;
-    private Integer sleepModePoints = 0;
-    private Integer familyModePoints = 0;
-    private Integer totalPoints = driveModePoints + fitnessModePoints + studyModePoints + sleepModePoints + familyModePoints;
+    private Integer driveModePoints;
+    private Integer fitnessModePoints;
+    private Integer studyModePoints;
+    private Integer sleepModePoints;
+    private Integer familyModePoints;
+    public Integer totalPoints;
+    
+    public Points(){
+    	driveModePoints = 0;
+        fitnessModePoints = 0;
+        studyModePoints = 0;
+        sleepModePoints = 0;
+        familyModePoints = 0;
+        totalPoints =  0 + driveModePoints + fitnessModePoints + studyModePoints + sleepModePoints + familyModePoints;
+    }
     
     @SuppressWarnings("unused")
     private Integer increaseDriveModePoints(Integer driveModePoints, Integer increasedBy){

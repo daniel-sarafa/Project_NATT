@@ -22,15 +22,19 @@
     font-weight: 400;
 }
 
+@media screen {
+	.topbar {
+		width: 100%;
+	}
+	.signupbut {
+		width: 100%;
+	}
+}
 
 .paragraphs > p {
     margin-left: 15%;
     margin-right: 15%;
     text-align: left;
-}
-
-.image {
-    background-image: url('../images/grillorig.png');
 }
 
 html, body {
