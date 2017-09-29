@@ -1,0 +1,67 @@
+@font-face {
+    /* Antenna Bold */
+    font-family: Antenna;
+    src: url("../webCore/assets/fonts/Antenna-Bold/85bf2123-24cb-4bfd-a720-efe63c68c84d-2.eot");
+    src: local('@'), url("../webCore/assets/fonts/Antenna-Bold/85bf2123-24cb-4bfd-a720-efe63c68c84d-2.eot") format('embedded-opentype'),
+    url("../webCore/assets/fonts/Antenna-Bold/85bf2123-24cb-4bfd-a720-efe63c68c84d-3.woff") format('woff'),
+    url("../webCore/assets/fonts/Antenna-Bold/85bf2123-24cb-4bfd-a720-efe63c68c84d-1.ttf") format('truetype'),
+    url("../webCore/assets/fonts/Antenna-Bold/85bf2123-24cb-4bfd-a720-efe63c68c84d-4.svg#WebSymbolsRegular") format('svg');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    /* Antenna Regular */
+    font-family: Antenna;
+    src: url("../webCore/assets/fonts/Antenna-Regular/a249ec5c-51a0-4581-a866-722ded577e7d-2.eot");
+    src: local('@'), url("../webCore/assets/fonts/Antenna-Regular/a249ec5c-51a0-4581-a866-722ded577e7d-2.eot") format('embedded-opentype'),
+    url("../webCore/assets/fonts/Antenna-Regular/a249ec5c-51a0-4581-a866-722ded577e7d-3.woff") format('woff'),
+    url("../webCore/assets/fonts/Antenna-Regular/a249ec5c-51a0-4581-a866-722ded577e7d-1.ttf") format('truetype'),
+    url("../webCore/assets/fonts/Antenna-Regular/a249ec5c-51a0-4581-a866-722ded577e7d-4.svg#WebSymbolsRegular") format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+.signupbut {
+	
+}
+
+.loginbut {
+
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+.topbar {
+	width: 100%; 
+	margin-bottom: 0; 
+	padding-bottom: 7%;
+	background-color: cornflowerblue;
+}
+
+.image {
+
+}
+
+.text-body {
+	text-size-adjust: auto;
+	text-align: center;
+	margin-top: 15%;
+}
+
+
+.description {
+	text-align: center;
+	/* margin-top: 40%; */
+	margin-left: 25%;
+	margin-right: 25%;
+	text-size-adjust: auto;
+}
+
+.buttons {
+	text-align: center;
+	margin-top: 20%;
+}

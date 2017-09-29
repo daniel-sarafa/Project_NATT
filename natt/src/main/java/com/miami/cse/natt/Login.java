@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Login {
-
+	
 	private String userName;
 	private String password;
 	
@@ -20,6 +20,4 @@ public class Login {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
-	
 }

@@ -19,21 +19,29 @@ public class DeviceDetectionController {
         return "deviceDetection";
     }
     
-    @PostMapping("/deviceDetection")
+    @RequestMapping("/deviceDetection/signup")
     public String signUpForm(Model model){
     	model.addAttribute("user", new User());
     	return "signup";
     }
     
-    @PostMapping("/signup")
+    @PostMapping("/deviceDetection/signup")
     public String submitSignUp(@ModelAttribute User user){
     	repository.insert(user);
     	return "mainpage";
     }
     
-    @PostMapping("/deviceDetection/login")
+    @RequestMapping("/deviceDetection/login")
     public String loginPage(Model model){
-    	model.addAttribute("login", new Login());
+    	model.addAttribute("user", new Login());
     	return "login";
     }
+    
+    @PostMapping("/deviceDetection/login")
+    public String postLogin(@ModelAttribute Login user1){
+    	User user = repository.findByUserNameAndPassword(user1.getUserName(), user1.getPassword());
+    	repository.save(user);
+    	return "mainpage";
+    }
+
 }

@@ -13,10 +13,10 @@
 		<div class="text-body">
 			<h1>Sign up for Project NATT</h1>
 			<div class="theform" style="margin-top: 15%;">
-			<form action="#" th:action="@{/signup}" th:object="${user}" method="post" style="font-size: 36px;">
+			<form action="#" th:action="@{/deviceDetection/signup}" th:object="${user}" method="post" style="font-size: 36px;">
 				<div class="formslineup" style="text-align: right; margin-right: 15%;">
 					<p>Desired Username: <input style="color: black;" type="text" th:field="*{userName}" /></p>
-					<p>Password: <input style="color: black;" type="text" th:field="*{password}" /></p>
+					<p>Password: <input style="color: black;" type="password" th:field="*{password}" /></p>
 					<p>Email Address: <input style="color: black;" type="text" th:field="*{email}" /></p>
 					<p>First Name: <input style="color: black;" type="text" th:field="*{firstName}" /></p>
 					<p>Last Name: <input style="color: black;" type="text" th:field="*{lastName}" /></p>
