@@ -7,12 +7,24 @@
     <link href='css/mainPage.css' rel='stylesheet' type='text/css'/>
     
 </head>
-<body>
-	<div class="navbar topbar">
-		<p class="hello" th:text="'Hello, ' + ${user.firstName} + '!'"/>
-		<ul class="navbar-right"> 
-			<li><p class="points" th:text="'Points:&nbsp;' + ${user.pointsForUser.totalPoints}"/></li>
-		</ul>
+<body style="background-color: black;">
+	<nav class="navbar topbar" style="padding-top: 20px;
+	padding-bottom: 20px; border-radius: 0">
+		<div class="container-fluid">
+		<div class="navbar-header">
+		<p class="hello" style="width: 300px;" th:text="'Hello, ' + ${user.firstName} + '!'"/>
+		</div>
+		<div class="navbar-right" style="padding-left: 0; width: 300px; text-align: right;"> 
+			<p class="points" th:text="'Points:&nbsp;' + ${user.pointsForUser.totalPoints}"/>
+		</div>
+	</div>
+	</nav>
+	<div class="restofbody">
+		<button style="border-radius: 0; position: absolute; width: 50%; height:20em; padding:0; 
+		font-size: 36px; color: white; 
+		background-image: url('images/dumbell.png'); background-repeat: no-repeat;" 
+		type="button" class="btn btn-lg fitness">Fitness Mode</button>
+		
 	</div>
 </body>
 </html>

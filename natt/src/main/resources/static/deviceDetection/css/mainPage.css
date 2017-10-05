@@ -1,9 +1,12 @@
 @CHARSET "ISO-8859-1";
 
 .topbar {
+	padding-top: 50px;
+	padding-bottom: 50px;
 	width: 100%; 
 	margin-bottom: 0; 
 	background-color: cornflowerblue;
+
 }
 
 .hello {
@@ -11,6 +14,7 @@
   		color: yellow;
   		margin-top: 1%;
     	margin-left: 1%;
+    	width: 300px;
 }
 
 .points {
@@ -18,4 +22,8 @@
   		color: yellow;
   		margin-top: 1%;
     	margin-left: 1%;
+}
+
+.fitness {
+	
 }
